@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android"   
     id="cordova-plugin-adam-alipay" 
-    version="2.0.3">
+    version="2.0.4">
     <name>Alipay</name>
     <description>Cordova Plugin Alipay</description>
     <license>Apache 2.0</license>
@@ -56,7 +56,7 @@
             <feature name="Alipay">
                 <param name="ios-package" value="Alipay"/>
             </feature>
-            <string name="ALI_ID">$APP_ID</string>
+            <preference name="APP_ID" value="$APP_ID"/>
         </config-file>
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
         <array>
