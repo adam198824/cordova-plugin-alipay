@@ -1,0 +1,78 @@
+{
+  "_from": "cordova-plugin-adam-alipay@latest",
+  "_id": "cordova-plugin-adam-alipay@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-KQPLBq3eVeB7975nZ3xVwwPQzSg=",
+  "_location": "/cordova-plugin-adam-alipay",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-adam-alipay@latest",
+    "name": "cordova-plugin-adam-alipay",
+    "escapedName": "cordova-plugin-adam-alipay",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-adam-alipay/download/cordova-plugin-adam-alipay-2.0.2.tgz",
+  "_shasum": "2903cb06adde55e07bf7be67677c55c303d0cd28",
+  "_spec": "cordova-plugin-adam-alipay@latest",
+  "_where": "/Volumes/D/work/xinlai/fenxiao",
+  "author": {
+    "name": "zhaowenli"
+  },
+  "bugs": {
+    "url": "https://github.com/adam198824/cordova-plugin-alipay/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-adam-alipay",
+    "platforms": [
+      "android",
+      "ios",
+      "cordova"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin Alipay",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      ">0.0.1": {
+        "cordova": ">6.1.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/adam198824/cordova-plugin-alipay#readme",
+  "keywords": [
+    "cordova",
+    "alipay",
+    "plugin",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-adam-alipay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam198824/cordova-plugin-alipay.git"
+  },
+  "scripts": {
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "test": "npm run eslint"
+  },
+  "version": "2.0.2"
+}
