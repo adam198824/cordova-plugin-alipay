@@ -44,15 +44,6 @@
 
     Alipay.pay(data,success,error);
 
-    2.@ionic-native/alipay调用          
-    import { Alipay } from '@ionic-native/alipay';
-    ....
-          constructor(
-            private dialog: DialogService,
-            private alipay:Alipay
-          ) { }
-    ....
-        this.alipay.pay(data).then(response=>{},error=>{})
      //response.resultStatus  状态代码  e.result  本次操作返回的结果数据 e.memo 提示信息
      //response.resultStatus  9000  订单支付成功 ;8000 正在处理中  调用function success
      //response.resultStatus  4000  订单支付失败 ;6001  用户中途取消 ;6002 网络连接出错  调用function error
